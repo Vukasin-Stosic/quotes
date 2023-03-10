@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(17, 8, 97, 0.681);
+  font-family: roboto, Tahoma;
+  margin: 100px 0;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 100px;
+}
+.wrapper {
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.votes {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding-top: 25px;
+  line-height: 25px;
+}
+.quote-wrapper {
+  background-color: white;
+  flex: 9;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+.author {
+  text-align: end;
+}
+.votes p {
+  font-weight: 700;
+}
+.red {
+  color: rgb(255, 107, 54);
+}
+.orange {
+  color: orange;
+}
+.yellow {
+  color: yellow;
+}
+.greenyellow {
+  color: greenyellow;
+}
+.green {
+  color: lime;
+}
+button {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+.clicked {
+  color: white;
+}
